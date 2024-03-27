@@ -11,8 +11,8 @@ import os
 st.title("RAG enhanced Chatbot")
 
 # Set up the OpenAI API key from databutton secrets
-os.environ["OPENAI_API_KEY"] = db.secrets.get("OPENAI_API_KEY")
-openai.api_key = db.secrets.get("OPENAI_API_KEY")
+os.environ["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"] = db.secrets.get("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")
+openai.api_key = db.secrets.get("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")
 
 
 # Cached function to create a vectordb for the provided PDF files
